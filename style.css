@@ -216,9 +216,69 @@ a{
 
 .section-6{
     grid-area: section-6;
+    justify-items: center;
+    background-color: #fbfbfd;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 5px;
+}
+.main-part{
+    display: grid;
+    place-items: center;
+    gap: 15px;
+}
+.section-6 p{
+    font-family: sans-serif;
+    color: #d9966d;
+    padding-top: 20px;
+    font-size: 13px;
+    border-bottom: 1px solid darkgray;
+}
+.section-6 .apple-watch{
+    width: 150px
+}
+.section-6 h3{
+    color: #d03238;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+.section-6 h4{
+    font-weight: 30;
+    font-family: sans-serif;
 }
 .section-7{
     grid-area: section-7;
+    justify-items: center;
+    background-color: #fbfbfd;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 5px;
+}
+.main-part{
+    display: grid;
+    place-items: center;
+    gap: 15px;
+}
+.section-7 p{
+    font-family: sans-serif;
+    color: #d9966d;
+    padding-top: 20px;
+    font-size: 13px;
+    border-bottom: 1px solid darkgray;
+}
+.section-7 .apple-watch{
+    width: 150px
+}
+.section-7 h3{
+    color: #d03238;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+.section-7 h4{
+    font-weight: 30;
+    font-family: sans-serif;
 }
 .section-8{
     grid-area: section-8;
@@ -239,7 +299,7 @@ footer{
     '. top .' auto
     '. middle .' auto
     '. bottom .' auto /
-    500px 1fr 500px ;
+    200px 1fr 200px ;
 }
 .top{
     grid-area: top;
@@ -388,7 +448,7 @@ footer{
 .apple-watch-2{
     width: 100%;
 }
-@media screen and (max-width:800px) {
+@media screen and (max-width:900px) {
     body{
         grid-template: 
         'header-1' 40px
@@ -402,8 +462,8 @@ footer{
         'section-7' auto
         'section-8' auto
         'section-9' auto
-        'footer' auto /
-        auto    ;
+        'footer' 1fr /
+        1fr  ;
     }
     
 }
